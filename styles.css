@@ -10,21 +10,32 @@ body {
 
 /* HEADER AND TOP SECTION */
 
+.top {
+    display:flex;
+    flex-grow: 1;
+    padding-top:8px;
+    
+}
 .container, .top {
     display: flex;
     justify-content: space-between;
+    width:1200px;
+    align-self:center;
+    flex-grow: 1;
 }
+
 
 .header {
     display:flex;
     background: #1F2937;
     color: white;
-    padding: 8px 250px 8px;
+    padding-top: 8px;
     flex-direction: column;
+    flex-grow:1;
 }
 
 .logo {
-    border-radius: 50%;
+    border-radius: 50%;    
 }
 
 .header-links a {
@@ -32,6 +43,8 @@ body {
     color: #F9FAF8;
     margin-left: 12px;
 }
+
+/* HEADER SECTION */
 
 .container {
     padding: 40px 0 60px;
@@ -123,11 +136,11 @@ ul {
     font-style:italic;
     font-weight:200;
     align-self: center;
-    max-width:800px;
+    width:800px;
 }
 
 .author {
-    align-self: center;
+    align-self: flex-end;
     font-weight:bold;
-    max-width: 800px;
+    width: 800px;
 }
