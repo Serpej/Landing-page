@@ -4,6 +4,8 @@
     padding:0;
 }
 
+/* HEADER AND TOP PART */
+
 .container, .top {
     display: flex;
     justify-content: space-between;
@@ -27,20 +29,15 @@
     margin-left: 12px;
 }
 
-
 .container {
-    display: flex;
-    padding: 36px 0 36px;
+    padding: 40px 0 60px;
     gap:20px;
 }
+
 .h-content {
     display: flex;
     flex-direction: column;
     flex-basis: 600px;
-}
-.heropic {
-    flex-grow: 1;
-    max-width: 580px;
 }
 
 .button {
@@ -51,13 +48,12 @@
 
 .Sign-up {
     border-radius: 5px;
-    border: #3883f6;
-    background-color: #3883f6;
+    border: #3883F6;
+    background-color: #3883F6;
     color: #F9FAF8;
     padding: 4px 20px;
     text-align: center;
 }
-
 
 .h-main-text {
     font-size: 48px;
@@ -69,4 +65,39 @@
     font-size: 18px;
     color: #E5E7EB;
     padding-bottom: 8px;
+}
+
+/* WHITE MIDDLE PART */
+
+.white-container {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.random-info {
+    font-size:36px;
+    color:#1F2937;
+    font-weight:bolder;
+    padding: 40px;
+}
+
+ul {
+    display:flex;
+    list-style-type: none;
+}
+.white-container li {
+    display:flex;
+    flex-direction:column; 
+    padding:40px;
+    width: 204px;
+}
+
+.illustrations {
+    width: 200px;
+    height: auto;
+    border: solid #3883F6 2px;
+    border-radius:5px;
 }
