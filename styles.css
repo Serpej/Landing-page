@@ -11,8 +11,6 @@ body {
 /* HEADER AND TOP SECTION */
 
 .top {
-    display:flex;
-    flex-grow: 1;
     padding-top:8px;
     
 }
@@ -61,7 +59,7 @@ body {
 .button {
     flex-grow: 1;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .Sign-up {
@@ -69,7 +67,7 @@ body {
     border: #3883F6;
     background-color: #3883F6;
     color: #F9FAF8;
-    padding: 4px 20px;
+    padding: 12px 40px;
     text-align: center;
 }
 
@@ -176,7 +174,22 @@ ul {
     font-weight: bold;
 }
 
+.Call2 {
+    font-weight: 400;
+}
+
 .button2 {
     border: solid  #E5E7EB 2px;
     border-radius: 5px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+    display:flex;
+    background: #1F2937;
+    height:80px;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
 }
